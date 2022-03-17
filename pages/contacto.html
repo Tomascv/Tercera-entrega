@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="icon" type="image/png" href="../images/escala-de-justicia.png" sizes="64x64">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,24 +20,22 @@
 
 <body>
 
-    <nav class="navbar p-3 bg-light text-white">
-        <div class="container-fluid">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="../index.html" class="navbar-brand">
-                    <img src="../images/logo-b.svg" alt="logo-b" width="150" height="45">
-                </a>
-
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-
-                    <li><a href="nosotros.html" class="nav-link  px-2">Nosotros</a></li>
-                    <li><a href="clientes.html" class="nav-link px-2">Clientes</a></li>
-                    <li><a href="contacto.html" class="nav-link px-2">Contacto</a></li>
-                    <li><a href="empleos.html" class="nav-link px-2">Empleos</a></li>
-                </ul>
-            </div>
-        </div>
+    <nav class="navbar">
+        <ul class="navbar__links">
+            <a href="../index.html"> <img class="navbarlogo" src="../images/logo-b.svg" alt="navbarlogo"></a>
+            <li class="navbar__item">
+                <a class="navbar__link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="clientes.html">Clientes</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link navbar__link--active" href="contacto.html">Contacto</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="empleos.html">Empleos</a>
+        </ul>
     </nav>
-
     <header>
         <h1 class="header_tit "> Contacto </h1>
     </header>
@@ -78,7 +76,7 @@
             </div>
         </main>
 
-<!--footer-->
+        <!--footer-->
         <div class="container">
             <div> <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
                     <symbol id="bootstrap" viewBox="0 0 118 94">

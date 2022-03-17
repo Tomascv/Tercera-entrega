@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="images/escala-de-justicia.png" sizes="64x64">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,22 +20,23 @@
 </head>
 
 <body>
-    <nav class=" navbar p-3 bg-light">
-        <div class="container-fluid">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="index.html" class="navbar-brand">
-                    <img src="images/logo-b.svg" alt="logo-b" width="150" height="45">
-                </a>
+    <nav class="navbar">
 
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+        <ul class="navbar__links ">
+            <a href="index.html"> <img class="navbarlogo " src="images/logo-b.svg" alt="navbarlogo"></a>
+            <li class="navbar__item">
+                <a class="navbar__link" href="pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="pages/clientes.html">Clientes</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="pages/contacto.html">Contacto</a>
+            </li>
+            <li class="navbar__item">
+                <a class="navbar__link" href="pages/empleos.html">Empleos</a>
+        </ul>
 
-                    <li><a href="pages/nosotros.html" class="nav-link  px-2">Nosotros</a></li>
-                    <li><a href="pages/clientes.html" class="nav-link px-2">Clientes</a></li>
-                    <li><a href="pages/contacto.html" class="nav-link px-2">Contacto</a></li>
-                    <li><a href="pages/empleos.html" class="nav-link px-2">Empleos</a></li>
-                </ul>
-            </div>
-        </div>
     </nav>
 
 
@@ -90,8 +91,8 @@
         <section class="container">
             <article class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <h2 class="principal-article__titulo">Nuestra historia</h2>
-                    <p class="principal-article__texto">
+                    <h2 class="row-titulo">Nuestra historia</h2>
+                    <p class="row-texto">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam commodi itaque, ut
                         blanditiis maiores
                         delectus quasi animi, culpa reprehenderit natus quas facilis dignissimos beatae nisi eveniet.
@@ -118,9 +119,9 @@
 
                 </div>
                 <div div class="col-lg-6 col-md-12 col-sm-12 mx-auto">
-                    <h2 class="principal-article__titulo">Misión</h2>
+                    <h2 class="row-titulo">Misión</h2>
                     <div>
-                        <p class="principal-article__texto">
+                        <p class="row-texto">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum minus porro veritatis.
                             Laboriosam
                             distinctio eum nobis eaque quia quidem doloremque sunt corporis atque labore quasi
@@ -142,23 +143,17 @@
                             assumenda vf
                             quae soluta.
                         </p>
-                        <iframe class="extlink" src="https://www.youtube.com/embed/IyIjYuF_HUo"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen class="extlink">
-
-                        </iframe>
                     </div>
                 </div>
             </article>
         </section>
         <!-- mapa -->
         <section class="container">
-            <h2 class="principal-article__titulo col-12">Dónde estamos</h2>
+            <h2 class="row-titulo col-12">Dónde estamos</h2>
             <div class="row">
                 <iframe class="col-6 mx-auto extlink"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.9715469679654!2d-60.669976063456545!3d-32.95176060977616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab6746964ef7%3A0x19bfc4e0421752c3!2sAv.%20Francia%2C%20S2002QRI%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1643581602837!5m2!1ses-419!2sar"
-                    style="border:0;" allowfullscreen="" loading="lazy" class="extlink">
+                    style="border:0;" allowfullscreen="" loading="lazy">
                 </iframe>
             </div>
         </section>
