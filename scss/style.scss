@@ -29,8 +29,19 @@
  }
 }
 
+/*lista de clientes*/ 
+
+.clientlist {
+    list-style: none;
+    color: $gris-claro;
+    .listitem:hover {
+        transition: 0.3s;
+        transform: scale(1.05);
+        }
+    }
+
  
-/*//////pages//////*/
+
 /*CONTACTO*/
 .img-thumbnail {
  height: 500px;

@@ -64,7 +64,6 @@ body {
     margin-bottom: 2px; } }
 
 .footer {
-  position: bottom;
   background: #ffffff;
   padding-top: 1rem; }
   .footer .company-name {
@@ -89,7 +88,14 @@ body {
   margin: 0 5px 5px 5px;
   text-align: justify; }
 
-/*//////pages//////*/
+/*lista de clientes*/
+.clientlist {
+  list-style: none;
+  color: #706f6f; }
+  .clientlist .listitem:hover {
+    transition: 0.3s;
+    transform: scale(1.05); }
+
 /*CONTACTO*/
 .img-thumbnail {
   height: 500px;
