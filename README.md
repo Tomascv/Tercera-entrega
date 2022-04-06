@@ -12,7 +12,7 @@ la actividad principal de la empresa. Se incluye la ubicación, y se linkea mapa
 - Empleos: En esta página, se comparten los empleos disponibles en la empresa. Momentaneamente, sólo se brinda un mail de RRHH. 
 
 En general, se hace uso de elementos de box model, flexbox, Bootstrap (que se adapta a las necesidades del proyecto).
-También utilicé SASS, SCSSS, prácticas SEO, y en general el contenido dado durante el curso, ya que fui adaptando el sitio a las entregas/desafíos. 
+También utilicé SASS, SCSS, prácticas SEO, y en general el contenido dado durante el curso, ya que fui adaptando el sitio a las entregas/desafíos. 
 
 Agrego link a versiones anteriores**, ya que en el repositorio actual, sólo está la última:
 - https://tomascv.github.io/mi_repositorio/
