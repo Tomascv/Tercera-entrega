@@ -1,5 +1,5 @@
 # proyecto-final
-Proyecto Final
+**Proyecto Final**
 
 El sitio está basado en el de un estudio de abogados, "Geller abogados". 
 
@@ -14,3 +14,12 @@ la actividad principal de la empresa. Se incluye la ubicación, y se linkea mapa
 En general, se hace uso de elementos de box model, flexbox, Bootstrap (que se adapta a las necesidades del proyecto).
 También utilicé SASS, SCSSS, prácticas SEO, y en general el contenido dado durante el curso, ya que fui adaptando el sitio a las entregas/desafíos. 
 
+Agrego link a versiones anteriores**, ya que en el repositorio actual, sólo está la última:
+https://tomascv.github.io/mi_repositorio/
+https://tomascv.github.io/repositorio-tomas/
+https://tomascv.github.io/mi-proyecto/
+https://tomascv.github.io/SASS-desafio/
+https://tomascv.github.io/SASS2-SEO/
+
+
+**versiones que fueron corregidas en base a comentarios de la tutora, y a las que fui agregando nuevos temas. 
